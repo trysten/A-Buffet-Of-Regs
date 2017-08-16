@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\.exe\shell]
+
+[-HKEY_CLASSES_ROOT\.exe\DefaultIcon]
+
+[HKEY_CLASSES_ROOT\.exe]
+@="exefile"
+
+[HKEY_CLASSES_ROOT\exefile]
+"Content Type"=-
+
+[HKEY_CLASSES_ROOT\exefile\shell\open\command]
+@="\"%1\" %*"
+"IsolatedCommand"=-
+
+[HKEY_CLASSES_ROOT\exefile\shell\runas\command]
+"IsolatedCommand"=-
+
+[HKEY_CLASSES_ROOT\.bat]
+@="batfile"
+
+[HKEY_CLASSES_ROOT\batfile\shell\open\command]
+@="\"%1\" %*"
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\.exe]
+
+[-HKEY_CURRENT_USER\Software\Classes\exefile]
+
+[-HKEY_CLASSES_ROOT\secfile]
+
+[-HKEY_CURRENT_USER\Software\Classes\secfile]
+
+[-HKEY_CLASSES_ROOT\pezfile]
+
+[-HKEY_CURRENT_USER\Software\Classes\pezfile]
+
+[-HKEY_CLASSES_ROOT\sezfile]
+
+[-HKEY_CURRENT_USER\Software\Classes\sezfile]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FIREFOX.EXE\shell\open\command]
+@="firefox.exe"
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FIREFOX.EXE\shell\safemode\command]
+@="firefox.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\IEXPLORE.EXE\shell\open\command]
+@="iexplore.exe"
